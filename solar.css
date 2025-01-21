@@ -1,0 +1,148 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+#H2
+{
+    color: white;
+
+}
+body{
+    background-size: cover;
+    background-image: url("https://img.freepik.com/premium-photo/beautiful-solar-system-planets-starry-sky_887552-37922.jpg");
+}
+body::before {
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -2;
+}
+h4{
+    color: white;
+    text-decoration: underline;
+}
+p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+ol{
+    color: white;
+}
+#Boxes
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#box1
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 5%;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuNs_O7CYIdD1ox28F9fLmumNgkqjGWESDQ&s");
+    background-color: aqua;
+}
+#box2
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 5%;
+    background-size: cover;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Venus_-_December_23_2016.png/220px-Venus_-_December_23_2016.png");
+}
+#box3
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 5%;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrcZPxZ34g_iJBYLepXgVcB5L84nOuO9Qp_Q&s");
+}
+#box4
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 5%;
+    background-size: cover;
+    background-image: url("https://static.scientificamerican.com/sciam/cache/file/C454F5A6-536E-4C9F-AA6AF354BB85A85B_source.jpg?crop=1%3A1%2Csmart&w=1000");
+}
+#box5
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 5%;
+    background-size: cover;
+    background-image: url("https://c02.purpledshub.com/uploads/sites/41/2024/04/jupiter.jpg?w=1029&webp=1");
+}
+#box6
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 5%;
+    background-size: cover;
+    background-image: url("https://starwalk.space/gallery/images/saturn-planet-guide/1920x1080.jpg");
+}
+#box7
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 5%;
+    background-size: cover;
+    background-image: url("https://ychef.files.bbci.co.uk/1280x720/p0257vk5.jpg");
+}
+#box8
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 5%;
+    background-size: cover;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/038/024/584/small_2x/ai-generated-neptune-planet-in-space-celestial-cosmic-solar-system-astronomy-universe-galactic-planetary-photo.jpg");
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+a:visited
+{
+    color: aqua;
+    text-decoration: underline;
+}
+a:active
+{
+    color: blueviolet;
+    font-weight: bold;
+}
+footer
+{
+    background-color: black;
+    text-align: center;
+    height: 100px;
+    color: white;
+}
